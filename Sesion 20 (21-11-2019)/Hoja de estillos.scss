@@ -1,0 +1,29 @@
+$fuente1:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+@font-face{
+    font-family: "miFuente1";
+    src: url("fonts/IndieFlower-Regular.ttf");
+}
+
+$mifuente2: miFuente1;
+
+div{
+    width: 80%;
+    min-height: 400px;
+    background-color: azure;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid red 2px;
+    .cajaroja{
+        width: 60%;
+        min-height: 200px;
+        background-color: red;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: $fuente1;
+    }
+}
+
+.parrafo1{
+    font-family: $mifuente2;
+}

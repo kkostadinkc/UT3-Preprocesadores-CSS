@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "miFuente1";
+  src: url("fonts/IndieFlower-Regular.ttf");
+}
+div {
+  width: 80%;
+  min-height: 400px;
+  background-color: azure;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid red 2px;
+}
+div .cajaroja {
+  width: 60%;
+  min-height: 200px;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.parrafo1 {
+  font-family: miFuente1;
+}
+
+/*# sourceMappingURL=Hoja%20de%20estillos.css.map */
