@@ -1,0 +1,21 @@
+.contenedorG, .contenedorF {
+  display: flex;
+  background-color: lightblue;
+  min-height: 700px;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.contenedorG > div, .contenedorF > div {
+  background-color: pink;
+  margin: 15px;
+  padding: 18px;
+  font-size: 2rem;
+}
+
+.contenedorG {
+  align-items: center;
+}
+
+/*# sourceMappingURL=hojaestilos2.css.map */

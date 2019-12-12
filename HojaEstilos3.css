@@ -1,0 +1,19 @@
+.contenedorFlex {
+  min-height: 800px;
+  background-color: dodgerblue;
+  display: flex;
+}
+
+.contenedorFlex > div {
+  padding: 20px;
+  margin: 10px;
+  font-size: 1.8rem;
+  background-color: #f1f1f1;
+}
+
+.contenedorFlex {
+  align-items: flex-start;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=HojaEstilos3.css.map */

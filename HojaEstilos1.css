@@ -1,0 +1,26 @@
+.contenedorflexCentradoFlex > div, .contenedorflex > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 1.8em;
+}
+
+.contenedorflexCentradoFlex, .contenedorflex {
+  display: flex;
+  background-color: dodgerblue;
+  flex-wrap: wrap;
+}
+
+.contenedorflexCentradoFlex {
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.contenedorflexCentradoFlex {
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+}
+
+/*# sourceMappingURL=HojaEstilos1.css.map */
