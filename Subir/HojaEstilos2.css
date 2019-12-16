@@ -1,0 +1,14 @@
+body {
+  counter-reset: consola;
+  counter-reset: titulo;
+}
+body h2::before {
+  counter-increment: consola;
+  content: "Consola de videojuegos " counter(consola) ": ";
+}
+body h1::before {
+  counter-increment: titulo;
+  content: "Titulo " counter(titulo) " : ";
+}
+
+/*# sourceMappingURL=hojaestilos2.css.map */

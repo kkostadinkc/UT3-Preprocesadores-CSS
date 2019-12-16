@@ -1,0 +1,33 @@
+.contenedorFlex {
+  display: flex;
+  width: 500px;
+  background-color: DodgerBlue;
+  padding: 10px;
+  min-height: 300px;
+}
+.contenedorFlex > .elemento1 {
+  flex-basis: 200px;
+  flex-grow: 1;
+  background-color: #f1f1f1;
+  border: 1px solid black;
+}
+.contenedorFlex > .elemento2 {
+  flex-basis: auto;
+  flex-grow: 2;
+  background-color: #f1f1f1;
+  border: 1px solid black;
+}
+.contenedorFlex > .elemento3 {
+  flex-grow: 2;
+  flex-basis: auto;
+  background-color: #f1f1f1;
+  border: 1px solid black;
+}
+.contenedorFlex > .elementoHijo {
+  background-color: #f1f1f1;
+  padding: 10px;
+  align-self: flex-end;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=HojaEstilos1.css.map */
